@@ -1,0 +1,19 @@
+name: Hub-Controller
+description: Hub plugin
+author: Travi5
+main: me.travi5plays.hub.HubController
+version: 2.0
+commands:
+  Hub:
+    description: Generic Command
+    usage: /<command>
+  Lobby:
+    description: Generic Command
+    usage: /<command>
+permissions:
+  Hub.setup:
+    description: Allows permissions to do commands
+    default: false
+  Hub.Builder:
+    description: Allows someone to build in the Hub World
+    default: false
